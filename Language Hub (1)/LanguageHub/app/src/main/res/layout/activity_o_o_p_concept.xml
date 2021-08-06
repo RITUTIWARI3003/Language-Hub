@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OOPConcept">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="320dp"
+                android:src="@drawable/bgshape"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/er"
+                android:padding="10dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OOP Concepts"
+                android:layout_below="@id/logo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:padding="10dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ObjectsAndClasses"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon31"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Objects and Classes"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon31"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Methods"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon36"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Methods"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon36"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/string"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon312"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strings"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon312"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/constructorss"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon32"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constructors"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon32"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Inheriitence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon33"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inheritence"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon33"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Encapsulation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon34"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon34"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/MethodOveriiding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon37"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Method Overriding"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon37"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Polymorphism"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <ImageView
+                android:id="@+id/icon35"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polymorphism"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon35"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".javaPackages">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="320dp"
+                android:src="@drawable/bgshape"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/er"
+                android:padding="10dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java Packages"
+                android:layout_below="@id/logo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:padding="10dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Packages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/iconp1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Packages"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/iconp1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Directory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/iconp2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directory Structure Packages"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_toRightOf="@id/iconp2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

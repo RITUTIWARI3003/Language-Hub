@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cfs">
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+       android:orientation="vertical">
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="380dp"
+               android:layout_height="320dp"
+               android:src="@drawable/bgshape"/>
+           <ImageView
+               android:id="@+id/logo"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/er"
+               android:padding="10dp">
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Control Flow
+                              Statements"
+               android:layout_below="@id/logo"
+               android:textColor="#ffffff"
+               android:textStyle="bold"
+               android:textSize="35sp"
+               android:padding="10dp">
+
+           </TextView>
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/If"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon41"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="If Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon41"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/IfElse"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon42"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="If Else Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon42"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/NestedIf"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon43"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nested If Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon43"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/Switch"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon44"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Switch Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon44"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/Loop"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon45"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Loop Controls"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon45"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/While"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon46"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="While Loop"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon46"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/For"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon47"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="For Loop"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon47"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/DoWhileLoop"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon48"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Do While Loop"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon48"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/LoopControlStatement"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/lcs"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="If Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/lcs"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/bs"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon411"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Break Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon411"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/cs"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/bgshape2"
+               android:background="@color/cardview_shadow_start_color" />
+           <ImageView
+               android:id="@+id/icon412"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:padding="10dp"
+               android:src="@drawable/pencil"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Continue Statement"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:layout_toRightOf="@id/icon412"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:fontFamily="monospace"
+               android:padding="10dp">
+
+           </TextView>
+
+
+
+
+       </RelativeLayout>
+   </LinearLayout>
+
+
+
+
+</ScrollView>

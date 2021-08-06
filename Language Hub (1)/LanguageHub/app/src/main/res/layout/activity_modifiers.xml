@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modifiers">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="320dp"
+                android:src="@drawable/bgshape"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/er"
+                android:padding="10dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modifiers"
+                android:layout_below="@id/logo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ModifierTypes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon100"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modifier Types"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon100"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/AccessMod"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon101"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Access Control Modifiers"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:layout_toRightOf="@id/icon101"
+
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/NonAccess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon102"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non Access Modifiers"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon102"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/StaticMod"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon103"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Static Modifiers"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon103"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Finalmod"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon104"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Final Modifier"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon104"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/AbstractMod"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icon105"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abstract Modifiers"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icon105"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

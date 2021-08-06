@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExceptionHandling">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="320dp"
+                android:src="@drawable/bgshape"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/er"
+                android:padding="10dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exception Handling"
+                android:layout_below="@id/logo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:padding="10dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/Exception"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exception"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ExceptionHierarchy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exception Hierarchy"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ExceptionMethods"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exception Methods"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/MultipleCatch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multiple Catch Block"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/CatchingException"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape2"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catching Exception"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/FinallyBlock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bgshape"
+                android:background="@color/cardview_shadow_start_color" />
+            <ImageView
+                android:id="@+id/icone6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@drawable/pencil"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finally Block"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/icone6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
